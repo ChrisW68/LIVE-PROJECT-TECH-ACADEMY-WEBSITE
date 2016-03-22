@@ -107,10 +107,14 @@
 					    
                         <!-- 4:3 aspect ratio -->
                         <!-- <div class="embed-responsive embed-responsive-4by3">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qfT5ksl8Dug?&"></iframe>
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qfT5ksl8Dug?&"></iframe> 
                         </div> -->
-                        
-                        <div class="flex-video widescreen"><iframe src="https://www.youtube.com/embed/qfT5ksl8Dug?&" id="iframeHomePage" frameborder="0" allowfullscreen=""></iframe></div>
+                          <!-- Changed youtube video from <div class="flex-video widescreen"><iframe 		src="https://www.youtube.com/embed/qfT5ksl8Dug?&"
+                             to
+                             <div class="flex-video widescreen"><iframe src="https://www.youtube.com/embed/qfT5ksl8Dug?rel=0&autoplay=1"
+                             which allows for autoplay on entry into the page.
+                        -->
+                        <div class="flex-video widescreen"><iframe src="https://www.youtube.com/embed/qfT5ksl8Dug?rel=0&autoplay=1;loop=1" id="iframeHomePage" frameborder="0" allowfullscreen=""></iframe></div>
 
 
 
@@ -146,8 +150,7 @@
             </div>
             <div class="row"><!-- ROW 2 -->
                 <div class="col-lg-6  newTiledInfoWhite slideanim">
-                    <p><strong>LEARN CODING AT THE TECH ACADEMY</strong>
-                    <br/>15 WEEK SOFTWARE DEVELOPER BOOT CAMP</p>
+                    <p><strong>LEARN CODING AT THE TECH ACADEMY</strong> <br/>15 WEEK SOFTWARE DEVELOPER BOOT CAMP</p>
                     <p>Through The Tech Academy’s programming bootcamp, students learn coding through real-world, hands-on software development training.</p>
                     <p>In 15 weeks, students learn several programming languages at one of the best code schools in the world. We train students as computer programmers. If you’re interested in becoming a full-stack developer, The Tech Academy is the perfect choice. Our program includes training in web development and computer programming, on the front-end and back-end.</p>
                     <p>Learn how you can start a new career in software development through our courses.</p>
