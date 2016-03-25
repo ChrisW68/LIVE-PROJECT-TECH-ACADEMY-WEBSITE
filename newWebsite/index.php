@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <!-- Microdata markup added by Google Structured Data Markup Helper. -->
 <html lang="en"><head>
+	
 	<meta name="msvalidate.01" content="650EB5D1A151FBD37E9C9ED9A0F741A0"/>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 	<meta name="description" content="The Tech Academy is a code school that trains students in a 15 week Software Developer Boot Camp which can be taken online or in-person. Learn coding through our courses and classes in web development and computer programming."/>
@@ -38,12 +39,14 @@
 
 </head>
 
-<body class="text-center">
+<body>
     <div>
-    
-	<img id="coverPic" src = "images/Tech_Academy_Logo.png">
-        
-	</div>
+    	 <img src = "images/Tech_Academy_Logo.png" name="coverPic" id="coverPic">
+   </div>
+</body>
+
+<body>
+
   
     
 
@@ -51,7 +54,7 @@
 
         
         <header class="header">
-       	  <?php include ("header.php");?>						
+<?php include ("header.php");?>						
      
 		  <h1>Learn To Code At The Tech Academy</h1>
         </header>

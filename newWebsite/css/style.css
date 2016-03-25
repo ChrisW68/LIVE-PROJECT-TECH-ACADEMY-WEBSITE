@@ -5,7 +5,7 @@ html {
   }
 
 body {
-  padding-top: 50px;
+  padding-top: 115px;
   font-size: 1.4em; 
   font-family: 'Titillium Web', sans-serif;
   }
@@ -20,7 +20,7 @@ h3{
     }
 
 h2, h4{
-    color: rgba(45,45,45,1);
+    color: rgba(255,255,255,1);
 }
 
 .navbar-header button {
@@ -742,17 +742,29 @@ a.btn-lg:active
 }
 
 #coverPic {
-    top: 25%;
-    left: 16.5%;
-	width: 66%;
-    
-	position: absolute;
-	margin: 0px;
-	padding: 0px;
-	z-index: 1000;
+	width: 100%;
+	height: 100%;
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+	-webkit-animation: myfirst 5s: /* Chrome, Safari, Opera */
+	animation: myfirst 3s;
 }
 
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+	from {opacity: 1;}
+	to {opacity: 0.01;}
+}
 
+/* Standard syntax */
+@keyframes myfirst {
+	from {opacity: 1;}
+	to {opacity: 0.01;}
+}
 
 .newTiledInfoBlack {
     background-color: rgba(45, 45, 48, 1);
@@ -798,61 +810,3 @@ a.btn-lg:active
         -webkit-transform: translateY(0%);
     }
 }
-
-
-    /* Fade In on the About page */
-
-.fade-in {
-  animation: fadeIn ease 3s;
-  -webkit-animation: fadeIn ease 3s;
-  -moz-animation: fadeIn ease 3s;
-  -o-animation: fadeIn ease 3s;
-  -ms-animation: fadeIn ease 3s;
-}
-
-
-@keyframes fadeIn{
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
-}
-
-@-moz-keyframes fadeIn {
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
-}
-
-@-o-keyframes fadeIn {
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
-}
-
-@-ms-keyframes fadeIn {
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
-}   
-    
