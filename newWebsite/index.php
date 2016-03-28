@@ -39,25 +39,23 @@
 
 </head>
 
-<body>
-    <div>
-    	 <img src = "images/Tech_Academy_Logo.png" name="coverPic" id="coverPic">
-   </div>
-</body>
-
-<body>
-
-  
     
+    <div id="logo"> 
+        <img src = "images/Tech_Academy_Logo.png" name="coverPic" id="coverPic">
+    </div>
+
+
+<body>
 
 		<!-- <img src="images/Tech_Academy_Logo.png" class="tech_academy hidden-lg"/> THIS IS WHAT MAKES THE TECH ACADEMY LOGO APPEAR BELOW NAVBAR ON SMALL SCREEN SIZE -->
-
-        
-        <header class="header">
-<?php include ("header.php");?>						
-     
-		  <h1>Learn To Code At The Tech Academy</h1>
-        </header>
+        <!--3/27/16 add "images/Tech_Academy_Logo.png" to javascript at end of program that will call the div
+        more smoothly.-->
+		<div id="main-content" style="display:none;">
+        	<header class="header">
+				<?php include ("header.php");?>						
+		  		<h1>Learn To Code At The Tech Academy</h1>
+        	</header>
+         </div>
 	
 		<!-- tiled info -->
         <div>
@@ -76,6 +74,7 @@
                              <div class="flex-video widescreen"><iframe src="https://www.youtube.com/embed/qfT5ksl8Dug?rel=0&autoplay=1"
                              which allows for autoplay on entry into the page.
                         -->
+                       
                         <div class="flex-video widescreen"><iframe src="https://www.youtube.com/embed/qfT5ksl8Dug?rel=0&autoplay=1;loop=1" id="iframeHomePage" frameborder="0" allowfullscreen=""></iframe></div>
 
 
@@ -183,8 +182,7 @@
 					<p><a class="btn btn-primary btn-lg onlyDisplayOnMobile" href="contact.html" role="button">Contact Us Now »</a></p>
                 </div>
                 <div class="col-lg-6 newTiledInfoWhite slideanim">
-                    <p><strong>WHAT OUR STUDENTS SAY:</strong></p>
-                    <p>"I cannot recommend The Tech Academy enough."</p>
+                    <p><strong>WHAT OUR STUDENTS SAY:</strong></p></br>"I cannot recommend The Tech Academy enough."</p>
                     <p>“Just a few weeks ago I was a transplant in Portland, with no connections, no job, no plans, nothing. Now, I've got a $60,000 a year job with full benefits, working at an amazing company, in a beautiful office in downtown Portland."</p>
                     <p>"Studying at The Tech Academy was a great experience, and was a big key in reaching my goals of learning a lot about software development, understanding programming and landing a job at an awesome software company."</p>
                     <p>“The curriculum was very comprehensive and wasn't limited to just learning a handful of simpler web-based languages."</p>
@@ -210,7 +208,7 @@
 				    <h3 class="modal-title">Hi there!</h3>
 			    </div>
 			    <div class="modal-body">
-				    <p>Would you like to learn more about The Tech Academy?</p>
+				    <p>Would you like to learn more about<em> The Tech Academy</em>?</p>
 			    </div>
 			    <div class="modal-footer">
                     <a class="btn modal-button-yes" href="contact.html">Yes</a>
@@ -258,6 +256,7 @@ _atrk_opts = { atrk_acct:"jT90m1a8FRh2cN", domain:"learncodinganywhere.com",dyna
 <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/npm.js"></script>
+<script type="text/javascript" src="js/logo-transition.js"></script>
 <script>
 	    $(document).ready(function () {
 //	        function dontGiveMePopup() {
@@ -284,10 +283,10 @@ _atrk_opts = { atrk_acct:"jT90m1a8FRh2cN", domain:"learncodinganywhere.com",dyna
 	        $("header").hide();
 	        $(".text-center").scrollTop(0);
 		    $(".container").hide();
-		    $(".container").fadeIn(3000);
-		    $("header").fadeIn(3000);
-		    $("#coverPic").fadeOut(3000);
-		    $(".text-center").scrollTop(50);
+			$("logo").fadeOut(2000);
+		    $(".container").fadeIn(2000);
+		    $("header").fadeIn(4000);
+		    $(".text-center").scrollTop(55);
 		    $(window).ready(function () { $(window).scroll() });
 		    $(window).scroll(function () {
 		        $(".slideanim").each(function () {
