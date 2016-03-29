@@ -9,78 +9,13 @@
     <meta name="author" content="">
 
     <title>Boot Camp</title>
-	
-	<!--  Font Awesome  -->
-	<link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-	
-	<!--  Google Font  -->
-	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" type="text/css">
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
-
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>
-
-<body class="text-center">
-
-    <div class="container">
-
-        <!--  The justified navigation menu is meant for single line per list item.
-        Multiple lines will require custom code not provided by Bootstrap.  -->
-        <div class="masthead">
-            <nav class="navbar-fixed-top navbar">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav nav-justified">
-                        <li class="hidden-lg hidden-md"><a href="index.html">Home</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="about.html">About Tech Academy</a></li>
-                                <li><a href="tour.html">Digital Tour</a></li>
-                                <li><a href="faq.html">FAQs</a></li>
-                                <!-- <li><a href="http://blog.learncodinganywhere.com/">Blog</a></li> -->
-                                <!-- <li><a href="staff.html">Staff</a></li> -->
-                            </ul>
-                        </li>
-                        <!-- <li class="dropdown"> -->
-                            <!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bootcamp <span class="caret"></span></a> -->
-                            <!-- <ul class="dropdown-menu"> -->
-                                <!-- <li><a href="bootcamp.html">Bootcamp Courses</a></li> -->
-                                <!-- <li><a href="tour.html">Digital Tour</a></li> -->
-                                <!-- <li><a href="faq.html">FAQs</a></li> -->
-                            <!-- </ul> -->
-                        <!-- </li> -->
-                        <li><a href="bootcamp.html">Bootcamp</a></li>
-                        <li><a href="testimonials.html">Testimonials</a></li>
-                        <li class="hidden-sm hidden-xs">
-                            <a href="index.html"><img src="images/Tech_Academy_Logo - Transparent.png" class="tech_academy"/></a>
-                        </li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="staff.html">Staff</a></li>
-                        <li><a href="employers.html">Employers</a></li>
-
-                    </ul>
-                </div>
-            </nav>
-        </div>
+<!-- 3/28/16: Placed Header Code into a separate PHP file named "header.php" allows all webpages to 
+    	          share the same code. -->
+	<header class="header">
+		<?php include ("header.php");?>						
+    </header>
+     
 
         <div class="jumbotron">
 			<h1>15 week Software Developer Boot Camp</h1>
@@ -484,54 +419,13 @@
     
 
     <!--  Site footer  -->
+    
+    <!-- 3/28/16: Placed Footer Code into a separate PHP file named "footer.php" allows all webpages to 
+    	          share the same code. -->
+    
     <footer class="footer">			
-        <div class="row">
-            <ul class="footer_nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-				<li><a href="tour.html">Digital Tour</a></li>
-                <li><a href="faq.html">FAQs</a></li>
-                <li><a href="bootcamp.html">Bootcamp</a></li>
-                <li><a href="testimonials.html">Testimonials</a></li>
-                <li><a href="contact.html">Contact</a></li>
-				<li><a href="staff.html">Staff</a></li>
-				<li><a href="employers.html">Employers</a></li>
-				<li><a href="http://blog.learncodinganywhere.com/">Blog</a></li>
-            </ul>
-            <div id="footAddress">
-                <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><strong><i class="fa fa-building fa-lg slideanim"></i> The Tech Academy</strong><br/>
-				<span itemprop="streetAddress">310 SW 4th Ave Ste. 412</span><br/>
-				<span itemprop="addressLocality">Portland,</span> 
-				<span itemprop="addressRegion">OR</span> 
-				<span itemprop="postalCode">97204</span>
-				<meta itemprop="addressCountry" content="USA"></p>
-			</div>
-			<div id="footEmail">
-                <p><i class="fa fa-envelope fa-lg slideanim"></i><span itemprop="email"> info@learncodinganywhere.com</span></p>
-			</div>
-			<div id="footPhone">
-                <p><i class="fa fa-phone fa-lg slideanim"></i><span itemprop="telephone"> 503.206.6915</span></p>
-            </div>
-        </div>
-        <div class="row">
-			<div id="footSocial">
-                <div class="col-lg-4">
-                </div>
-                <div class="col-lg-4">
-				<a class="fa fa-facebook slideanim" href="https://www.facebook.com/The-Tech-Academy-663002590387052/?fref=ts" target="_blank" id="facebook"></a>
-				<a class="fa fa-twitter slideanim" href="https://twitter.com/TheTechAcad" target="_blank" id="twitter"></a>
-				</div>
-                <div class="col-lg-4">
-                <a class="fa fa-instagram slideanim" href="https://www.instagram.com/learncodinganywhere/" target="_blank" id="instagram"></a>
-				<a class="fa fa-linkedin slideanim" href="https://www.linkedin.com/company/3685017?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A3685017%2Cidx%3A2-3-4%2CtarId%3A1454531536037%2Ctas%3Atech%20acade" target="_blank"id="linkedin"></a>
-                </div>
-			</div>
-        </div>
-        <div class="row" id="rights">
-            <div class="col-lg-12">
-			    All Rights Reserved <i class="fa fa-copyright fa-lg"></i> 2016 The Tech Academy
-            </div>
-        </div>
+        <?php include("footer.php"); ?>
+    </footer>
 		<!--
         <div class="col-lg-6 text-right">
             <p>© The Tech Academy 2015</p>
@@ -542,25 +436,14 @@
     </footer>
 
     </div> <!-- /container -->
-
-    <div id="myModalPopUp" class="modal fade" role="dialog"> <!-- modal dialog box -->
-	    <div class="modal-dialog">
-		    <!-- Modal content-->
-		    <div class="modal-content">
-			    <div class="modal-header">
-				    <button type="button" class="close" data-dismiss="modal">&times;</button>
-				    <h3 class="modal-title">Hi there!</h3>
-			    </div>
-			    <div class="modal-body">
-				    <p>Would you like to learn more about The Tech Academy?</p>
-			    </div>
-			    <div class="modal-footer">
-                    <a class="btn modal-button-yes" href="contact.html">Yes</a>
-                    <a class="btn" data-dismiss="modal">No</a>
-			    </div>
-		    </div>
-	    </div>
-    </div>
+    
+    <!-- 3/28/16: Placed Modal into a separate PHP file name "Modal-Content.php" allow all webpages share 
+    			  the same code -->
+    
+	<div id="Modal">
+		<?php include("Modal-Content.php"); ?>
+	</div>
+    
 	
 	<!-- Start Alexa Certify Javascript -->
 <script type="text/javascript">

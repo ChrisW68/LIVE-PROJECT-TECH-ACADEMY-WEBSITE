@@ -21,29 +21,11 @@
 	
 
     <title>The Tech Academy | Learn to Code Anywhere</title>
-	
-	<!--  Font Awesome  -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
-	
-	<!--  Google Font  -->
-	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" type="text/css">
-	
-    <!--  Bootstrap core CSS  -->
-    <link href="css/bootstrap.min.css" rel="stylesheet"/>
-
-    <!--  Custom CSS  -->
-    <link href="css/style.css" rel="stylesheet"/>
-	
-	<link rel="canonical" href="learncodinganywhere.com"/>
-
 </head>
 
-    
     <div id="logo"> 
         <img src = "images/Tech_Academy_Logo.png" name="coverPic" id="coverPic">
     </div>
-
 
 <body>
 
@@ -98,7 +80,6 @@
                             <p><i class="fa fa-check-square-o"></i> Full-Time & Part-Time Scheduling Options
 							<p><i class="fa fa-check-square-o"></i> Financing Options available</p>
 							</p>
-						    <br/>
 							<p>Full Price: <span style="text-decoration: line-through;">$10,000.00</span></p>
 							<p>Discount through April 1st: $6,980.00</p>
 							</h2>
@@ -181,11 +162,12 @@
 					<p>Your ideal, high-paying career is closer than ever with The Tech Academy. Contact us today to get more information.</p>
 					<p><a class="btn btn-primary btn-lg onlyDisplayOnMobile" href="contact.html" role="button">Contact Us Now »</a></p>
                 </div>
-                <div class="col-lg-6 newTiledInfoWhite slideanim">
-                    <p><strong>WHAT OUR STUDENTS SAY:</strong></p></br>"I cannot recommend The Tech Academy enough."</p>
-                    <p>“Just a few weeks ago I was a transplant in Portland, with no connections, no job, no plans, nothing. Now, I've got a $60,000 a year job with full benefits, working at an amazing company, in a beautiful office in downtown Portland."</p>
-                    <p>"Studying at The Tech Academy was a great experience, and was a big key in reaching my goals of learning a lot about software development, understanding programming and landing a job at an awesome software company."</p>
-                    <p>“The curriculum was very comprehensive and wasn't limited to just learning a handful of simpler web-based languages."</p>
+                <div class="col-lg-6 newTiledInfoWhite slideanim" style="padding:25px;">
+                    <p><strong>WHAT OUR STUDENTS SAY:</strong></p>
+                    <q>I cannot recommend The Tech Academy enough.</q>
+                    </br><q>Just a few weeks ago I was a transplant in Portland, with no connections, no job, no plans, nothing. Now, I've got a $60,000 a year job with full benefits, working at an amazing company, in a beautiful office in downtown Portland.</q>
+                    </br><q>Studying at The Tech Academy was a great experience, and was a big key in reaching my goals of learning a lot about software development, understanding programming and landing a job at an awesome software company.</q>
+                    </br><q>The curriculum was very comprehensive and wasn't limited to just learning a handful of simpler web-based languages.</q>
 				    <p><a class="btn btn-lg btn-primary onlyDisplayOnMobile" href="testimonials.html" role="button">Read More »</a></p>
                     <p id="demo"></p>
                 </div>
@@ -199,24 +181,9 @@
             </div>
         </div>
 </div><!-- end container -->
-    <div id="myModalPopUp" class="modal fade" role="dialog"> <!-- modal dialog box -->
-	    <div class="modal-dialog">
-		    <!-- Modal content-->
-		    <div class="modal-content">
-			    <div class="modal-header">
-				    <button type="button" class="close" data-dismiss="modal">&times;</button>
-				    <h3 class="modal-title">Hi there!</h3>
-			    </div>
-			    <div class="modal-body">
-				    <p>Would you like to learn more about<em> The Tech Academy</em>?</p>
-			    </div>
-			    <div class="modal-footer">
-                    <a class="btn modal-button-yes" href="contact.html">Yes</a>
-                    <a class="btn" data-dismiss="modal">No</a>
-			    </div>
-		    </div>
-	    </div>
-    </div>
+<div id="Modal">
+	<?php include("Modal-Content.php"); ?>
+</div>
     <!--  Site footer  -->
     <footer class="footer">			
         <?php include("footer.php"); ?>
