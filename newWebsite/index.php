@@ -91,12 +91,12 @@
                 
             </div>
             <div class="row"><!-- ROW 2 -->
-                <div class="col-lg-6  newTiledInfoWhite slideanim">
+                <div class="col-lg-6  newTiledInfoWhite slideanim" >
+                	<p></p>
                     <p><strong>LEARN CODING AT THE TECH ACADEMY</strong> <br/>15 WEEK SOFTWARE DEVELOPER BOOT CAMP</p>
                     <p>Through The Tech Academy’s programming bootcamp, students learn coding through real-world, hands-on software development training.</p>
                     <p>In 15 weeks, students learn several programming languages at one of the best code schools in the world. We train students as computer programmers. If you’re interested in becoming a full-stack developer, The Tech Academy is the perfect choice. Our program includes training in web development and computer programming, on the front-end and back-end.</p>
                     <p>Learn how you can start a new career in software development through our courses.</p>
-					<br/>
                     <p><a class="btn btn-lg btn-primary" href="contact.html" role="button">Contact Us Now »</a></p>
                 </div>
                 <div class="col-lg-6 newTiledInfoWhite slideanim">
@@ -156,19 +156,20 @@
                 
             </div>
             <div class="row"><!--  Start Row 3  -->
-                <div class="col-lg-6  newTiledInfoBlack slideanim">
+                <div class="col-lg-6  newTiledInfoBlack slideanim" >
+                	</br>
                     <p><strong>ONLINE AND IN-PERSON COMPUTER PROGRAMMING CLASSES WITH FLEXIBLE SCHEDULING</strong></p>
 				    <p>The Tech Academy is a code school located in downtown Portland. They train students in computer programming. Their 15 week Software Developer Boot Camp consists of 15 self-paced web development and software development classes. The program can be done in-person at our campus or taken online from anywhere.</p>
-					<p>Your ideal, high-paying career is closer than ever with The Tech Academy. Contact us today to get more information.</p>
+					</br><p>Your ideal, high-paying career is closer than ever with The Tech Academy. Contact us today to get more information.</p>
 					<p><a class="btn btn-primary btn-lg onlyDisplayOnMobile" href="contact.html" role="button">Contact Us Now »</a></p>
                 </div>
                 <div class="col-lg-6 newTiledInfoWhite slideanim" style="padding:25px;">
                     <p><strong>WHAT OUR STUDENTS SAY:</strong></p>
-                    <q>I cannot recommend The Tech Academy enough.</q>
-                    </br><q>Just a few weeks ago I was a transplant in Portland, with no connections, no job, no plans, nothing. Now, I've got a $60,000 a year job with full benefits, working at an amazing company, in a beautiful office in downtown Portland.</q>
-                    </br><q>Studying at The Tech Academy was a great experience, and was a big key in reaching my goals of learning a lot about software development, understanding programming and landing a job at an awesome software company.</q>
-                    </br><q>The curriculum was very comprehensive and wasn't limited to just learning a handful of simpler web-based languages.</q>
-				    <p><a class="btn btn-lg btn-primary onlyDisplayOnMobile" href="testimonials.html" role="button">Read More »</a></p>
+                    <q>I cannot recommend The Tech Academy enough.</q><hr/>
+                    <q>Just a few weeks ago I was a transplant in Portland, with no connections, no job, no plans, nothing. Now, I've got a $60,000 a year job with full benefits, working at an amazing company, in a beautiful office in downtown Portland.</q><hr/>
+                    <q>Studying at The Tech Academy was a great experience, and was a big key in reaching my goals of learning a lot about software development, understanding programming and landing a job at an awesome software company.</q><hr/>
+                    <!--<q>The curriculum was very comprehensive and wasn't limited to just learning a handful of simpler web-based languages.</q>
+				    <p><a class="btn btn-lg btn-primary onlyDisplayOnMobile" href="testimonials.html" role="button">Read More »</a></p> -->
                     <p id="demo"></p>
                 </div>
             </div>
