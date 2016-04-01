@@ -9,26 +9,54 @@
     <meta name="author" content="">
 
     <title>FAQ</title>
+	
+	<!--  Font Awesome  -->
+	<link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+	
+	<!--  Google Font  -->
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+    <link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+    <link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
-<body class="text-center">
 
- <!-- 3/28/16: Placed Header Code into a separate PHP file named "header.php" allows all webpages to 
-    	          share the same code. -->
-		<header class="header">
-			<?php include ("header.php");?>						
-        </header>
- 
-        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="container">
+
+        <!--  The justified navigation menu is meant for single line per list item.
+        Multiple lines will require custom code not provided by Bootstrap.  -->
+       
+        	<header class="header">
+<?php include ("header.php");?>						
+        	</header>
+       
+		
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true" style="margin-top: 40px;">
           <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingOne">
+            <div class="panel-heading" role="tab" id="headingOne" >
+            <div>
               <h4 class="panel-title">
                 <a role="button" data-toggle="collapse" data-parent="#accordion" href="#faqOne" aria-expanded="true" aria-controls="faqOne">
                     What is a code school and what is a programming boot camp?
                 </a>
               </h4>
+              </div>
             </div>
-            <div id="faqOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="faqOne">
+            <div id="faqOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faqOne">
               <div class="panel-body">
                 <p>A programming boot camp, also commonly called a “developer boot camp” or “coding boot camp”, is an intensive training program in software development. A code school is an entity that delivers a dev boot camp.</p>
                 <p>Jack Stanley and Erik Gross, the Co-Founders of The Tech Academy actually wrote an article that covers this subject. The article can be found here: <a href="http://blog.learncodinganywhere.com/post/what-is-a-code-school" target="_blank">http://blog.learncodinganywhere.com/post/what-is-a-code-school</a></p>
@@ -291,7 +319,7 @@ Associate. </p>
             </div>
           </div>
             
-        </div>
+</div>
         <div class="slideanim">
             <p>Again, if you have further questions that weren’t covered above, please feel free to <a href="contact.html">contact us</a>.</p>
             <p>Also, here is a video that explains our program and answers common questions:</p>
@@ -305,31 +333,15 @@ Associate. </p>
     
 
     <!--  Site footer  -->
-
-	<!-- 3/28/16: Placed Footer Code into a separate PHP file named "footer.php" allows all webpages to 
-    	          share the same code. -->
-                  
-    <footer class="footer">			
-  		<?php include("footer.php"); ?>
+<footer class="footer">						
+  <?php include("footer.php"); ?>
     </footer>
 
-
-		<!--
-        <div class="col-lg-6 text-right">
-            <p>© The Tech Academy 2015</p>
-			<div id="___page_0" style="text-indent: 0px; margin: 0px; padding: 0px; background-color: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 300px; height: 352px; background-position: initial initial; background-repeat: initial initial;"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 300px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 352px;" tabindex="0" vspace="0" width="100%" id="I0_1453928962300" name="I0_1453928962300" src="https://apis.google.com/_/widget/render/page?usegapi=1&href=%2F%2Fplus.google.com%2Fu%2F0%2F108407477315781502466&rel=publisher&origin=http%3A%2F%2Flearncodinganywhere.com&gsrc=3p&ic=1&jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_US.EUHM0okOSao.O%2Fm%3D__features__%2Fam%3DAQ%2Frt%3Dj%2Fd%3D1%2Ft%3Dzcms%2Frs%3DAGLTcCOtX4SuyVD7gCm8N-17I91Nqq-HDQ#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh%2Conload&id=I0_1453928962300&parent=http%3A%2F%2Flearncodinganywhere.com&pfname=&rpctoken=27015051" data-gapiattached="true" title="+Badge"></iframe></div>
-        </div>
-
-		-->
-  
-
     </div> <!-- /container -->
-    <!-- 3/28/16: Placed Modal into a separate PHP file name "Modal-Content.php" allow all webpages share 
-    			  the same code -->
-                  
-    <div id="Modal">
-		<?php include("Modal-Content.php"); ?>
-	</div>
+ <div id="Modal">
+	<?php include("Modal-Content.php"); ?>
+</div>
+	
 	<!-- Start Alexa Certify Javascript -->
 <script type="text/javascript">
 _atrk_opts = { atrk_acct:"jT90m1a8FRh2cN", domain:"learncodinganywhere.com",dynamic: true};
@@ -344,11 +356,11 @@ _atrk_opts = { atrk_acct:"jT90m1a8FRh2cN", domain:"learncodinganywhere.com",dyna
 <noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=jT90m1a8FRh2cN" style="display:none" height="1" width="1" alt="" /></noscript>
 <!-- End Alexa Certify Javascript -->   
 
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/npm.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/npm.js"></script>
 
-    <script>
+<script>
         $(document).ready(function () {
             function waitThenDoSomething(waitTimeInMS, myAction) {
                 setTimeout(function () {
