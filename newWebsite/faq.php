@@ -39,6 +39,7 @@
 
         <!--  The justified navigation menu is meant for single line per list item.
         Multiple lines will require custom code not provided by Bootstrap.  -->
+        <!-- 3/28/16: Changed header to header.php format to allow it to be shared throughout the webpages. -->
        
         	<header class="header">
 <?php include ("header.php");?>						
@@ -56,6 +57,7 @@
               </h4>
               </div>
             </div>
+            <!-- 3/31/16: Changed class from class="panel-collapse" to class="panel-collapse collapse", this allows the first 	accordion to be hidden on start of webpage until button is selected. -->
             <div id="faqOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faqOne">
               <div class="panel-body">
                 <p>A programming boot camp, also commonly called a “developer boot camp” or “coding boot camp”, is an intensive training program in software development. A code school is an entity that delivers a dev boot camp.</p>
@@ -333,11 +335,14 @@ Associate. </p>
     
 
     <!--  Site footer  -->
+    
+    <!-- 3/28/16: Changed footer to footer.php format to allow it to be shared throughout the webpages. >
 <footer class="footer">						
   <?php include("footer.php"); ?>
-    </footer>
+</footer>
 
     </div> <!-- /container -->
+    <!-- 3/28/16: Changed Modal to Modal-Content.php format to allow it to be shared throughout the webpages. -->
  <div id="Modal">
 	<?php include("Modal-Content.php"); ?>
 </div>

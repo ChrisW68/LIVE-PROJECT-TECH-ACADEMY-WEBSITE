@@ -5,7 +5,8 @@ html {
   }
 
 body {
-  width: 90%;
+	/* 4/1/16: Changed width from 100% to 97.75% to removed the scroll bar at the bottom of page. */
+  width: 97.75%;
   margin: 0 auto;
   padding-top: 115px;
   font-size: 1.4em; 
@@ -482,13 +483,14 @@ blockquote {
 .panel-body {
 	font-size: 1.3em;
 	border: 2px solid #A8551A;
+	/* 4/1/16: Added box-shadow:1.5px .5px  #DB5B04 to bring it out more */
 	box-shadow:1.5px .5px  #DB5B04;
 
 	
 }
 
 .container {
-    width: 93%; 
+    width: 100%; 
     /*I CHANGED THIS FROM 90% TO 100%*/
     padding: 0px;
     margin: 0px;
@@ -841,10 +843,7 @@ div.slide-left p {
   transition: all 2s ease-in-out;
 }	
 
-#accordion
-{
-	background-color:#1E2074;
-}
+
 
 
 

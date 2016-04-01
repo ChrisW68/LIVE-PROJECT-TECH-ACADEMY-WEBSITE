@@ -19,13 +19,10 @@
 	<meta name="twitter:title" content="The Tech Academy" />
 	<meta name="twitter:description" content="Learn coding. Get hired. It's that simple." />
 	
+<img src = "images/Tech_Academy_Logo.png" name="coverPic" id="coverPic" class="withfadeout">
 
     <title>The Tech Academy | Learn to Code Anywhere</title>
 </head>
-
-    <div id="logo"> 
-        <img src = "images/Tech_Academy_Logo.png" name="coverPic" id="coverPic">
-    </div>
 
 <body>
 
@@ -249,11 +246,10 @@ _atrk_opts = { atrk_acct:"jT90m1a8FRh2cN", domain:"learncodinganywhere.com",dyna
 	        waitThenDoSomething(60000, "displayPopup"); //this function waits 60000milliseconds before displaying a popup.
 	        $("a").click(function () { window.onbeforeunload = dontGiveMePopup; }); //don't make popup appear just because user clicked our site's hyperlink.
 	        $("header").hide();
+			$("header").fadeIn(2000);
 	        $(".text-center").scrollTop(0);
 		    $(".container").hide();
-			$("logo").fadeOut(2000);
-		    $(".container").fadeIn(2000);
-		    $("header").fadeIn(4000);
+		    $(".container").fadeIn(3000);
 		    $(".text-center").scrollTop(55);
 		    $(window).ready(function () { $(window).scroll() });
 		    $(window).scroll(function () {
