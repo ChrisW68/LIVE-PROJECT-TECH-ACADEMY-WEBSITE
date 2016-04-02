@@ -18,14 +18,17 @@
 	<meta name="twitter:card" content="The Tech Academy" />
 	<meta name="twitter:title" content="The Tech Academy" />
 	<meta name="twitter:description" content="Learn coding. Get hired. It's that simple." />
-	
-<img src = "images/Tech_Academy_Logo.png" name="coverPic" id="coverPic" class="withfadeout">
 
-    <title>The Tech Academy | Learn to Code Anywhere</title>
+
+<title>The Tech Academy | Learn to Code Anywhere</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
-
+ 
 <body>
-
+<!--4/1/16 add "images/Tech_Academy_Logo.png" removed javascript FadeIn Javascript at the bottom and kept the FadeIn with CSS and changes time from 4 seconds to 2 seconds.-->
+		<img src="images/Tech_Academy_Logo.png" name="coverPic" id="coverPic" class="img-rounded img-responsive" alt="Placeholder image">
+			
+		
 		<!-- <img src="images/Tech_Academy_Logo.png" class="tech_academy hidden-lg"/> THIS IS WHAT MAKES THE TECH ACADEMY LOGO APPEAR BELOW NAVBAR ON SMALL SCREEN SIZE -->
         <!--3/27/16 add "images/Tech_Academy_Logo.png" to javascript at end of program that will call the div
         more smoothly.-->
@@ -246,10 +249,11 @@ _atrk_opts = { atrk_acct:"jT90m1a8FRh2cN", domain:"learncodinganywhere.com",dyna
 	        waitThenDoSomething(60000, "displayPopup"); //this function waits 60000milliseconds before displaying a popup.
 	        $("a").click(function () { window.onbeforeunload = dontGiveMePopup; }); //don't make popup appear just because user clicked our site's hyperlink.
 	        $("header").hide();
-			$("header").fadeIn(2000);
+			$("header").fadeIn(4000);
+			$("flex-video widescreen").hide().delay(4000);
 	        $(".text-center").scrollTop(0);
 		    $(".container").hide();
-		    $(".container").fadeIn(3000);
+		    $(".container").fadeIn(5000);
 		    $(".text-center").scrollTop(55);
 		    $(window).ready(function () { $(window).scroll() });
 		    $(window).scroll(function () {

@@ -765,17 +765,19 @@ a.btn-lg:active
 #coverPic {
 	/* 3/26/16: Changed the logo on initial page start to be full screen
 	background-image:url(../images/Tech_Academy_Logo.png);*/
-	background-repeat: no-repeat;
-	background-position: center center;
-	width: 50%;
-	height: 50%;
-	z-index:999
-	;
-	-webkit-background-size: 50%;
-	-moz-background-size: 50%;
-	-o-background-size: 50%;
-	background-size: 50%;
+	top: 25%;
+	left: 16.5%;
+	width: 66%;
+	position: absolute;
+	margin: 0px;
+	border: 5px inset #E06217;
+	padding: 2px;
+	z-index: 1000;
 
+}
+
+img {
+	vertical-align:middle;
 }
 
 .newTiledInfoBlack {
