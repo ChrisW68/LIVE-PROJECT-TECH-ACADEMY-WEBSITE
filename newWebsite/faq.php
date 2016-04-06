@@ -11,19 +11,19 @@
         </style>
         <link href="css/style.css" rel="stylesheet" type="text/css">
         <link href="css/accordion_style.css" rel="stylesheet" type="text/css">
-    </head>
-    <header class="header">
-		<?php include ("header.php");?>						
-    </header>
-    <body >
-<div class="container">
-
     
+   
+    </head margin>
+<body >
+        <header class="header" style="padding:30px;">
+			<?php include ("header.php");?>						
+    	</header>
 
+<div class="container">
             <ul id="example1" class="accordion">
                 <li>
                     <h3>What is a code school and what is a programming boot camp?</h3>
-                    <div class="panel loading">
+                    <div class="panel-collapse collapse">
                         <p >A programming boot camp, also commonly called a “developer boot camp” or “coding boot camp”, is an intensive training program in software development. A code school is an entity that delivers a dev boot camp.</p>
                 <p>Jack Stanley and Erik Gross, the Co-Founders of The Tech Academy actually wrote an article that covers this subject. The article can be found here: <a href="http://blog.learncodinganywhere.com/post/what-is-a-code-school" target="_blank">http://blog.learncodinganywhere.com/post/what-is-a-code-school</a></p
                     ></div>

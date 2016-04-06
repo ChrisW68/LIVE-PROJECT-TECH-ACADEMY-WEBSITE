@@ -4,18 +4,14 @@ html {
    
 }
 
-body {
-    color:      "white";
-    font:       14px/1.4 "helvetica neue", arial, sans-serif;
-    padding:    0px;
-    text-align: center;
-}
+
 
 h1, h2, h3, h4 {
     color:      #333;
 }
 h1 {
     font-size:  32px;
+	vertical-align: text-center;
     margin:     0 0 20px;
 }
 h2 {

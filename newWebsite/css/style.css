@@ -17,6 +17,7 @@ body {
     letter-spacing: 4px;
     /*color: #FFFFFF;*/
     color: rgba(45, 45, 48, 1);
+
 }
 h3{
     color: rgba(45, 45, 48,1);
@@ -765,12 +766,13 @@ a.btn-lg:active
 #coverPic {
 	/* 3/26/16: Changed the logo on initial page start to be full screen
 	background-image:url(../images/Tech_Academy_Logo.png);*/
+	/* 4/2/16: Added a border to the image that matches the Tech Academy col
 	top: 25%;
 	left: 16.5%;
 	width: 66%;
 	position: absolute;
 	margin: 0px;
-	border: 5px inset #E06217;
+	border: 5px inset #DB8216;
 	padding: 2px;
 	z-index: 1000;
 
@@ -844,6 +846,9 @@ div.slide-left p {
   -o-transition: all 2s ease-in-out;
   transition: all 2s ease-in-out;
 }	
+
+
+
 
 
 
