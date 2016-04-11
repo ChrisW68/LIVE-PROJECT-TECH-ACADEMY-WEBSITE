@@ -46,6 +46,7 @@
             <div class="col-lg-4 testimonial img1" id="img_1">
                 <blockquote>"Each course is beautifully developed on an incrementing scale of difficulty to fully immerse the student in possible real-world scenarios…”</blockquote>
             </div>
+            <h5>“I have always had a voracious appetite for knowledge across a vast myriad of different subjects and genres."</h5>
             <div class="col-lg-8 text-justify">
                 <p>“I have always had a voracious appetite for knowledge across a vast myriad of different subjects and genres. Coding was never something that even pinged on my radar as a possible career avenue. It was not until I heard of the unique environment and learning structure at the Tech Academy that I felt inclined to look into the technology field. As I researched all of the diverse code schools that the Portland area had to offer, word kept coming around about how intentionally different the Tech Academy was in its approach to teaching the fundamentals of software development.</p>
                 <p id="location_1">“Upon my acceptance to Tech Academy and initial introduction to the course material, I knew I had made the correct choice. Each course is beautifully developed on an incrementing scale of difficulty to fully immerse the student in possible real-world scenarios and deeply instill the vocabulary and syntax of each coding language and OOP. With a range of interests from front-end to back-end and database implementation, everything needed to be successful in the industry is covered.</p>
