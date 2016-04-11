@@ -42,6 +42,7 @@
 
         <!-- Start Tiles -->
         <div class="row tiles slideanim"><!-- Start Row 1 -->
+            <h1>This is our quote</h1>
             <a name="cole"></a>
             <div class="col-lg-4 testimonial img1" id="img_1">
                 <blockquote>"Each course is beautifully developed on an incrementing scale of difficulty to fully immerse the student in possible real-world scenarios…”</blockquote>
