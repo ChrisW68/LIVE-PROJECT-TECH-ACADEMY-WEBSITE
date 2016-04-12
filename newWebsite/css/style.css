@@ -31,6 +31,12 @@ h2{
 h4{
     color: rgba(255,255,255,1);
 }
+
+h5{
+	font-weight: bold;
+	font-size: 20px;
+	
+}
 .navbar-header button {
   background: #004271; 
 }
@@ -847,7 +853,12 @@ div.slide-left p {
   transition: all 2s ease-in-out;
 }	
 
-
+.h5:hover {
+    -webkit-box-shadow:0 0 15px #ffffff; 
+    -moz-box-shadow: 0 0 15px #ffffff;
+    -ms-box-shadow: 0 0 15px #ffffff; 
+    box-shadow:0 0 15px #ffffff;
+}
 
 
 
