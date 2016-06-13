@@ -2,8 +2,9 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Untitled Document</title>
 </head>
+    <!-- Program was created to have header in separate program to reduce memory use age 
+         and have one location for a common header that several webpages can use -->
     <title>The Tech Academy | Learn to Code Anywhere</title>
 	
 	<!--  Font Awesome  -->
